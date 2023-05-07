@@ -1,13 +1,16 @@
+import random
 movies = input("Enter a list of movies, separated by commas: ").split(", ")
 
 movie_pairs = []
+
 for i in range(len(movies)):
     for j in range(i+1, len(movies)):
         movie_pairs.append((movies[i], movies[j]))
+random.shuffle(movie_pairs)
 
 rankings = {}
 for pair in movie_pairs:
-    print("Which movie do you prefer?")
+    print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhich movie do you prefer?")
     print("1. " + pair[0])
     print("2. " + pair[1])
     choice = input("Enter 1 or 2: ")
